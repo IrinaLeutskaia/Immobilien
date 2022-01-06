@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo header__logo">
+        <a class="header__logo" href="#">Immobilien</a>
+
+        <!-- <a class="logo__link" href="#">
+          <img class="logo__link-img" src="images/logo.svg" alt="logo" />
+        </a> -->
+      </div>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__list-item">
+            <a class="menu__list-link menu__list-link--active" href="#"
+              >Über uns</a
+            >
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">Häuser</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">Wohnungen</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">Kontakte</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="slider">
+      <div
+        class="slider__item"
+        style="background-image: url(images/slider-item.jpg)"
+      ></div>
+      <div
+        class="slider__item"
+        style="background-image: url(images/slider-item.jpg)"
+      ></div>
+      <div
+        class="slider__item"
+        style="background-image: url(images/slider-item.jpg)"
+      ></div>
+    </section>
+
+    <section class="search">
+      <div class="search__inner">
+        <form class="search__form" action="">
+          <label class="search__form-label">Suche</label>
+          <input class="search__form-input" type="text" placeholder="Stadt" />
+          <button class="search__form-btn" type="submit">Suchen</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="popular">
+      <h3 class="popular__title">Beliebtesten Optionen</h3>
+      <div class="container">
+        <div class="popular__inner">
+          <div class="popular__item">
+            <img class="popular__img" src="images/popular-1.jpg" alt="" />
+            <h5 class="popular__item-title">
+              Häuser <br />
+              Deutschland
+            </h5>
+            <a class="popular__link" href="#">Details</a>
+          </div>
+          <div class="popular__item">
+            <img class="popular__img" src="images/popular-2.jpg" alt="" />
+            <h5 class="popular__item-title">
+              Häuser <br />
+              Frankreich
+            </h5>
+            <a class="popular__link" href="#">Details</a>
+          </div>
+          <div class="popular__item">
+            <img class="popular__img" src="images/popular-3.jpg" alt="" />
+            <h5 class="popular__item-title">
+              Häuser <br />
+              Belgien
+            </h5>
+            <a class="popular__link" href="#">Details</a>
+          </div>
+          <div class="popular__item">
+            <img class="popular__img" src="images/popular-4.jpg" alt="" />
+            <h5 class="popular__item-title">
+              Häuser <br />
+              Tschechien
+            </h5>
+            <a class="popular__link" href="#">Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reason">
+      <div class="container">
+        <div class="reason__inner">
+          <div class="reason__item">
+            <h4 class="reason__title reason__title--icon-1">
+              Wir sparen ihr Geld und Zeit
+            </h4>
+            <p class="reason__text">
+              Auf unserer Website finden Sie ganz einfach das beste Mietobjekt
+              zum Schnäppchenpreis. Unsere Manager helfen Ihnen gerne weiter und
+              beantworten alle Ihre Fragen.
+            </p>
+            <a class="reason__link" href="#">mehr Details</a>
+          </div>
+          <div class="reason__item">
+            <h4 class="reason__title reason__title--icon-2">
+              Mieten Sie die besten Immobilie
+            </h4>
+            <p class="reason__text">
+              Unsere Datenbank mit Luxusimmobilien umfasst mehr als 5.000
+              Optionen in den wichtigsten Städten der Welt.Wir helfen Ihnen bei
+              der Auswahl der besten und bieten zusätzliche Dienstleistungen an.
+            </p>
+            <a class="reason__link" href="#">mehr Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="best" style="background-image: url(images/best.jpg)">
+      <div class="container">
+        <h3 class="best__title">Cottage Modern in Hamburg</h3>
+        <a class="best__link" href="">Buchen</a>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <div class="about__inner">
+          <div class="our-managers">
+            <h4 class="our-managers__title about__title">Unsere Manager</h4>
+            <div class="our-managers__items">
+              <div class="our-managers__item">
+                <img
+                  class="our-managers__img"
+                  src="images/our-managers-1.jpg"
+                  alt=""
+                />
+                <ul class="our-managers__list">
+                  <li class="our-managers__name">Marc</li>
+                  <li class="our-managers__location">Hamburg</li>
+                </ul>
+                <button class="our-managers__btn">Kontakt</button>
+              </div>
+              <div class="our-managers__item">
+                <img
+                  class="our-managers__img"
+                  src="images/our-managers-2.jpg"
+                  alt=""
+                />
+                <ul class="our-managers__list">
+                  <li class="our-managers__name">Lisa</li>
+                  <li class="our-managers__location">Paris</li>
+                </ul>
+                <button class="our-managers__btn">Kontakt</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog">
+            <h4 class="about__title">Blog</h4>
+            <ul class="blog__list">
+              <li class="blog__item">
+                <a class="blog__link" href="#"
+                  >Sicherheits- und Videoübewachungssysteme</a
+                >
+              </li>
+              <li class="blog__item">
+                <a class="blog__link" href="#"
+                  >Wie findet man richtige Immobilien?</a
+                >
+              </li>
+              <li class="blog__item">
+                <a class="blog__link" href="#"
+                  >Vorteile der Vermietung von Immobilien</a
+                >
+              </li>
+              <li class="blog__item">
+                <a class="blog__link" href="#"
+                  >Wie wählt man das richtige Haus aus?</a
+                >
+              </li>
+              <li class="blog__item">
+                <a class="blog__link" href="#">Häuser in Frankreich</a>
+              </li>
+              <li class="blog__item">
+                <a class="blog__link" href="#"
+                  >Die beste Wohnungen mit Panoramablick</a
+                >
+              </li>
+              <li class="blog__item">
+                <a class="blog__link" href="#">Häuser zu vermieten</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="reviews">
+            <h4 class="about__title">Bewertungen</h4>
+            <img class="reviews__img" src="images/reviews.jpg" alt="" />
+            <p class="reviews__text">
+              Das ist der beste Auswahlservice Wohnungen. Ich nutze seit 5
+              Jahren Um Dienste zu mieten. Immer perfekt und genau das was ich
+              brauche.
+            </p>
+            <a class="reviews__link" href=""> Mehr Bewertungen</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="container">
+          <div class="footer__top-inner">
+            <nav class="footer__menu">
+              <ul class="footer__menu-list">
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Über uns</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Häuser</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Wohnungen</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Bewertungen</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Kontakte</a>
+                </li>
+              </ul>
+            </nav>
+            <form class="footer__form">
+              <label class="footer__form-label"
+                >Uns <br />
+                zu kontaktieren</label
+              >
+              <input
+                class="footer__form-input"
+                type="text"
+                placeholder="eine Frage stellen"
+              />
+              <button class="footer__form-btn">Senden</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="logo footer__logo">
+        <a class="header__logo" href="#">Immobilien</a>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
